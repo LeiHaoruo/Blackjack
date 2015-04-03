@@ -91,7 +91,7 @@ void Computer(double a,double b,double c[13][4],int d[],int e[],int f)
   	else Judge(a,b,f);
 }
 
-void Judge(double a,double b,int c)//make a judge when sums are equal.
+void Judge(double a,double b,int c)//make a judgement when sums are equal.
 { 	int d;
   	if(a==b){d=times-c; if(d>c)cout<<endl<<"You Fail！";
   			else {if(c=d)cout<<endl<<"Tie!"; 
